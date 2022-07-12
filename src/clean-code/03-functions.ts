@@ -1,3 +1,5 @@
+// * Si una funcion recibe muchos parametros lo mejor es recibir un objeto. Asi no importara el orden que se envien los parametros y es mas legible.
+
 (() => {
   function getMovieById(id: string) {
     console.log({ id });
