@@ -53,6 +53,33 @@ Indentación: Depende del lenguaje.
   - Resto de métodos de instancia ordenados de mayor a menor importancia.
   - Getters y Setters al final.
 
+
+# SOLID - Son principios, no reglas. Una regla es algo que es de obligatorio cumplimiento, si no lo hago asi no funcionara. Los principios son recomendaciones que me ayudan a hacer mejor las cosas.
+
+- S – Single Responsibility Principle (SRP): Nunca debería haber más de un motivo por el cual cambiar una clase o un módulo. Una clase debe de tener una unica responsabilidad, tener mas de una hace que nuestro codigo sea dificil de mantener, leer, menos tolerante al cambio, tener una unica responsabilidad no es sinonimo de hacer una única cosa.
+    - ## Detectar violaciones
+    - Nombres de clases y módulos demasiado genéricos.
+    - Cambios en el código suelen afectar la clase o módulo.
+    - La clave involucra múltiples capas.
+    - Número elevado de importaciones.
+    - Cantidad elevada de métodos públicos.
+    - Excesivo número de líneas de código.
+
+- O – Open/Closed Principle (OCP): Establece que las entidades de software (clases, módulos, métodos, etc.) deben estar abiertas para la extensión, pero cerradas para la modificación.
+    - ## Detectar violaciones
+    - Cambios normalmente afectan nuestra clase o módulo.
+    - Cuando una clase o módulo afecta muchas capas. (Presentación, almacenamiento, etc.)
+
+- L – Liskov Substitution Principle (LSP): Las funciones que utilicen punteros o referencias a clases base deben ser capaces de usar objetos de clases derivadas sin saberlo.
+
+- I – Interface Segregation Principle (ISP): Los clientes no deberían estar obligados a depender de interfaces que no utilicen.
+    - ## Detectar violaciones
+    - Si las interfaces que diseñamos nos obligan a violar los principios de responsabilidad única y substitución de Liskov.
+
+- D – Dependency Inversion Principle (DIP): Los módulos de alto nivel no deben depender de módulos de bajo nivel. Ambos deberian depender de abstracciones. Las abstracciones no deberían dependender de detalles. Los detalles deberían depender de abstracciones.
+
+Los principios de SOLID nos indican cómo organizar nuestras funciones y estructuras de datos en componentes y cómo dichos componentes deben estar interconectados.
+
 # Clonar o descargar el proyecto y luego:
 
 ```
