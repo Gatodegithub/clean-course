@@ -2,6 +2,15 @@
 
 Este es un proyecto de Vanilla TypeScript en Vite, para trabajar los ejercicios del curso sobre Principios SOLID y CleanCode.
 
+1. Programación declarativa : Consiste en decirle a un programa lo que tiene que hacer en lugar de decirle cómo debería hacerlo. Este enfoque significa implica proporcionar un lenguaje específico de dominio (DSL) para expresar lo que el usuario quiere.
+
+2. Programación imperativa : Son como unas instrucciones paso a paso (cómo) redactadas para el ordenador. Describen de forma explícita qué pasos deben llevarse a cabo y en qué secuencia para alcanzar finalmente la solución deseada.
+
+# Tips
+
+1. Early return -> para evitar muchos if, doy vuelta la sentencia y hago un return si el caso no se cumple, asi consecutivamente con los posibles casos y al final cuando pase esos casos, continua con el codigo principal. Lo mismo con los bucles, usando continue.
+
+
 # Notas del curso
 
 1. Nombre de variables: Que se identifique facilmente que almacena la variable.
